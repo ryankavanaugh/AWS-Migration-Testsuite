@@ -55,7 +55,6 @@ def create_and_assert_route_was_created(driver, waitTime):
     driver.find_element_by_xpath('//*[@id="leftPanelContent"]/div/div[3]/a').click()  # Clicking the save this link
 
     # Click submit
-    # Contains text "Save"?
     time.sleep(2)
     driver.find_element_by_xpath('//*[@id="save-route-form"]/button').submit()  # Clicking the submit button
 
