@@ -17,7 +17,6 @@ from Variables import USERNAME, PASSWORD
 from Utility import amz_headers_and_return_driver, JSON_list_creator, login_to_TG_Web, get_auth_token_data
 # -*- coding: utf-8 -*-
 
-# This test seems to not need this...?
 # Function allowing Google Chrome to run on a virtual Jenkins server by providing a virtual window
 def AdjustResolution():
     display = Display(visible=0, size=(800, 800))
