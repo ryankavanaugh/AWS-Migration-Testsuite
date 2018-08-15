@@ -8,8 +8,8 @@ workbookNameCars5 = 'NE CARS 5 Links.xlsx'
 
 WORKBOOK = xlrd.open_workbook(WORKBOOKNAMEDATA)
 WORKSHEET = WORKBOOK.sheet_by_index(0)
-USERNAME = 'ryan.kavanaugh@crc-corp.com'
-PASSWORD = 'test'
+USERNAME = 'USERNAME'
+PASSWORD = 'PASSWORD'
 URL = 'http://crc-prod-ne-tg-elb-1066571327.us-west-2.elb.amazonaws.com/#roadReports?timeFrame=TODAY&layers=allReports%2CroadReports%2CwinterDriving%2CotherStates'
 ADJUSTRESOLUTION = 0
 HEADERS = {'host': 'hb.511.nebraska.gov'}
